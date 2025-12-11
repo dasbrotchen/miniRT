@@ -1,0 +1,11 @@
+
+L 5,0.5,5 0.7 255,255,255
+L 5,0.5,-5 0.7 255,255,255
+
+sp checkerboard 5,0,2 1 16 8 255,255,255 0,0,0 shi=30
+sp 7,0,-2 1 255,0,0 shi=30 spe=0.5
+pl xpm=assets/brickwall2.xpm 0,-1,0 0,1,0 bump=on ref=0.2
+A 0.2 255,255,255
+co xpm=assets/worldmap.xpm 4,1,2 0,-1,0 1 0.25 bump=off
+C 0,0,0 1,0,0 50
+co checkerboard 4,0,2 0,1,0 1 0.25 1 16 140,220,35 68,30,250 ref=0.3

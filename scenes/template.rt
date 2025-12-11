@@ -1,0 +1,9 @@
+sp checkerboard	0,0,0 2 16 8 255,255,255 0,0,0 [shi,spe,dif,ref]
+co checkerboard x,y,z axis.x,axis.y,axis.z height angle checkers_width checkers_height rgb1 rgb2 [shi,spe,dif,ref]
+pl checkerboard x,y,z normal.x,normal.y,normal.z checkers_width checkers_height rgb1 rgb2 [shi,spe,dif,ref]
+cy checkerboard x,y,z axis.x,axis.y,axis.z radius height checkers_width checkers_height rgb1 rgb2 [shi,spe,dif,ref]
+
+sp xpm=assets/worldmap.xpm x,y,z radius bump=on [shi,spe,dif,ref]
+co xpm=assets/worldmap.xpm x,y,z axis height angle [shi,spe,dif,ref] bump=off
+pl xpm=assets/worldmap.xpm x,y,z normal [shi,spe,dif,ref] bump=on
+cy xpm=assets/worldmap.xpm x,y,z axis height radius [shi,spe,dif,ref] bump=off
